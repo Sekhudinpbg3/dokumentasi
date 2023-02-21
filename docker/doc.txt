@@ -1,0 +1,21 @@
+### file
+
+--- .dockerignore
+file yang digunaka untuk mengecualikan file saat bundling ke image docker
+
+--- docker-compose.yml
+file konfigurasi yang digunakan untuk membuat container menggunakn docker compose
+
+--- Dockerfile
+file yangh diguanakan untuk membundling (membuat image docker), termasuk instalasi dependencies dan command untuk menjalankanya ketika sudah berbentuk container
+
+
+### command
+
+--- build image
+ex: docker build --tag <image name> <path dockerfile>
+
+--- docker container create
+ex: dcker conainer create --tag <container name> -p 4000:4000 -e envKey=envValue <image>:<tag version>
+
+note: -e: environment, -p: publish

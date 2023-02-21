@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  server2:
+    container_name: server2
+    image: express-app:1.0
+    ports:
+      - 3000:8080
+    environment:
+      - MESSAGE=INI ADALAH ENVIRONT BERASAL DARI FILE YML
