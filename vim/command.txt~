@@ -1,0 +1,40 @@
+ini adalah penggunaan vim sebagai text editor
+
+--- mode ---
+NORMAL --> mode dimana kita memberikan perintah, tombol keyboard adalah
+perintah argumen (input tidak tersedia)
+
+VIEW --> mode dimana memungkinkan user untuk melakukan block pada text/isi
+dokumen
+
+INSERT --> mode dimana pengguna dapat melakukan proses editing pada isi file
+
+
+--- button (on normal mode) ---
+ESC --> untuk mengubah mode vim ke mode lainya (insert, view, normal)
+
+
+--- mode: NORMAL ---
+:q --> untuk keluar dari vim (menutup text editor)
+:q! --> memaksa keluar dari text editor (tidak akan menyimpan perubahan pada
+file yang tengah diedit)
+:w --> untuk menyimpan perubahan isi file (written).
+:wq --> untuk menyimpan peruahan dan kemudian keluar dari vim (write quit).
+i --> untuk memasuki mode INSERT
+v --> untuk memasuki mode view
+x --> untuk menghapus karakter langsung tanpa harus berpindah ke INSERT mode.
+5 + l --> untuk berpindah karakter 5 ke samping kanan.
+u --> untuk undo (membatalkan perintah).
+r --> redo.
+yy --> untuk mengkopi.
+p --> untuk paste.
+o --> untuk menyisipkan baris baru dibawah.
+SHIFT + o --> untuk menyisipkan baris baru diatasnya.
+SHIFT + a --> untuk langsung masuk mode INSERT dan menempatkan kursor pada
+akhir baris.
+SHIFT + i --> untuk langsung masuk mode INSERT dan menempatkan kursor pada
+aawal baris.
+KURSOR + a/i --> hampir sama dengan SHIFT+a/i.
+w/b --> untuk memindah kursor ke kiri/kanan perkata.
+dd --> untuk menghapus satu baris.
+
